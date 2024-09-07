@@ -17,6 +17,7 @@
     "aws-sdk": "^2.1687.0",
     "axios": "^1.7.7",
     "csv-parse": "^5.5.6",
+    "csv-writer": "^1.6.0",
     "express": "^4.19.2",
     "multer": "^1.4.5-lts.1",
     "prisma": "^5.19.0",
