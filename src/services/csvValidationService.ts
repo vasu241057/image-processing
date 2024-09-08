@@ -11,7 +11,6 @@ export function validateCSV(data: string): CSVRow[] {
     columns: true,
     skip_empty_lines: true,
   });
-  console.log(records);
 
   for (const record of records) {
     if (!record.serialNumber || !record.productName || !record.inputImageUrls) {

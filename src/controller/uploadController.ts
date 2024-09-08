@@ -19,6 +19,7 @@ export async function uploadCSV(req: Request, res: Response) {
   try {
     validatedData = validateCSV(csvData);
   } catch (error: any) {
+    console.log(error.message);
     return res.status(400).json({ error: error.message });
   }
 
